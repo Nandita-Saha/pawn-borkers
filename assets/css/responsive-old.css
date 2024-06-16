@@ -1,0 +1,310 @@
+/* Large screen */
+
+@media (max-width: 2560px) {}
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1536px) {}
+
+/* Medium screen */
+
+@media (max-width: 1440px) {
+    .pay-less h2 {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 110.09px;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 1366px) {
+    .prod-strip p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.17px;
+        color: #000;
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .pay-less-btn {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 45.95px;
+    }
+
+    .pay-less p {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 30.77px;
+        margin-bottom: 30px;
+    }
+
+    .pay-less h2 {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 80.09px;
+        margin: 20px 0;
+    }
+
+    .pay-less-btn {
+        font-size: 44px;
+    }
+
+    .prod-strip h3 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 70.89px;
+    }
+
+    .prod-strip {
+        flex: 0 0 8%;
+        width: 145px;
+    }
+
+    .testimonial h2 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70.93px;
+    }
+
+    .testimonial p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25.17px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer h6 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 46.96px;
+    }
+
+    .hours li,
+    .footer-links li,
+    .address p,
+    .telephone a {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28.78px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header .navbar-light .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+   
+    footer .contact li a {
+        font-size: 1.3rem;
+    }
+
+    footer ul li a {
+        font-size: 1.4rem;
+    }
+}
+
+/* tab view */
+
+@media (max-width: 991px) {
+
+    /* navbar  */
+    .navbar {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(232, 232, 232, 0.48) 100%);
+    }
+
+    .navbar-nav {
+        background-color: rgba(255, 255, 255, 0.9);
+        flex-direction: row;
+        border-radius: 5px;
+        margin-left: 5px;
+        justify-content: space-around;
+    }
+
+    .navbar-toggler-icon {
+        background: #2168c3;
+        height: 2px;
+        position: relative;
+        background-image: none !important;
+        width: 20px;
+        float: left;
+    }
+
+    .navbar-light .navbar-toggler::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #2168c3;
+        top: 8px;
+        left: 6px;
+    }
+
+    .navbar-light .navbar-toggler:after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #2168c3;
+        bottom: 8px;
+        left: 6px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0px;
+        box-shadow: 0px 0px 0px;
+        padding: 0px;
+        position: relative;
+        width: 44px;
+        height: 40px;
+        background-color: #ffffff;
+        padding: 6px;
+    }
+
+    .pay-less h2 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 80.09px;
+        margin: 20px 0;
+    }
+
+
+    .prod-container{
+        flex-wrap: wrap;
+    }
+
+    .prod-container .prod-strip:nth-child(-n+3) {
+        order: 1; /* First three divs */
+    }
+
+    .prod-container .prod-strip:nth-child(n+4) {
+        order: 2; /* Last three divs */
+    }
+
+  
+    footer {
+        padding-top: 30px;
+    }
+
+    footer .contact li {
+        padding: 15px 15px;
+    }
+
+    footer .contact li a {
+        font-size: 1.5rem;
+    }
+
+     /* contact page  */
+
+    .contact-box{
+        margin-top: 0;
+    }
+    
+}
+
+/* mobile view */
+
+@media (max-width: 767px) {
+    .home-banner h1 {
+        font-size: 30px;
+    }
+
+    .home-banner h2 {
+        font-size: 27px;
+    }
+
+    .bnr-btn {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.56px;
+    }
+    .testi-left{
+        margin-bottom: 20px;
+    }
+    .pay-less{
+        background-size: cover;
+    }
+    .pay-less p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30.77px;
+        margin-bottom: 30px;
+    }
+    .pay-less-btn {
+        font-size: 36px;
+        top: 0;
+        padding: 6px 50px;
+    }
+    .contact-div, .contact-box{
+        background-position: -15% 0%;
+    }
+    .contact-div h2{
+        font-size: 60px;
+    }
+    .contact-form .form-group label{
+        background: #fff;
+    }
+    .contact-left ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    .contact-box::after, .contact-div::after{
+        display: none;
+    }
+    .contact-div{
+        padding-top: 204px;
+    }
+}
+
+@media (max-width: 575px) {
+    .search-box input.nav-search {
+        width: auto;
+    }
+
+    .search-box .search-btns {
+        padding-left: 2rem;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    footer .contact li {
+        width: 100%;
+        padding: 15px 5px;
+    }
+
+    footer ul li a {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    footer .contact li a {
+        font-size: 0.9rem;
+    }
+
+    footer .contact li img {
+        width: 18px;
+    }
+
+    .adventage ul li {
+        padding: 0px;
+        flex: 0 0 60%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    footer .contact li a {
+        font-size: 0.8rem;
+    }
+
+}

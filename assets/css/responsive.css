@@ -1,85 +1,147 @@
+/* Large screen */
 
-/* Large screens */
+@media (max-width: 2560px) {}
 
-@media (max-width: 2560px){
+@media (max-width: 1920px) {}
+
+@media (max-width: 1536px) {}
+
+/* Medium screen */
+
+@media (max-width: 1440px) {
+    .pay-less h2 {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 110.09px;
+        margin: 20px 0;
+    }
+    .nav-link {
+        font-size: 20px;      
+        line-height: 35.97px;
+    }
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1366px) {
+    
+    .prod-strip p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.17px;
+        color: #000;
+        display: none;
+    }
 }
 
-@media (max-width: 1536px){
+@media (max-width: 1199px) {
+    .nav-link {
+        font-size: 18px;
+        line-height: 28.97px;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+    .pay-less-btn {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 45.95px;
+    }
+
+    .pay-less p {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 30.77px;
+        margin-bottom: 30px;
+    }
+
+    .pay-less h2 {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 80.09px;
+        margin: 20px 0;
+    }
+
+    .pay-less-btn {
+        font-size: 44px;
+    }
+
+    .prod-strip h3 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 70.89px;
+    }
+
+    .prod-strip {
+        flex: 0 0 8%;
+        width: 145px;
+    }
+
+    .testimonial h2 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70.93px;
+    }
+
+    .testimonial p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25.17px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer h6 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 46.96px;
+    }
+
+    .hours li,
+    .footer-links li,
+    .address p,
+    .telephone a {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28.78px;
+    }
 }
 
-/* Medium screens */
+@media (max-width: 1024px) {
+    header .navbar-light .navbar-nav .nav-link {
+        font-size: 1rem;       
+    }
 
-@media (max-width: 1440px){
-}
-
-@media (max-width: 1366px){
-}
-
-@media (max-width: 1199px){
-}
-
-@media (max-width: 1024px){
-    header .navbar-light .navbar-nav .nav-link{
-        font-size: 1rem;
-    }
-    .services ul{
-        flex-wrap: wrap;
-    }
-    .services ul li{
-        padding: 15px;
-        width: calc(100%/3 - 10px);
-        margin-bottom: 10px;
-        min-height: 219px;
-    }
-    .services ul li h3{
-        font-size: 1.2rem;
-    }
-    .services ul li:nth-child(3n){
-        margin-right: 0px;
-    }
-    .home-banner .banner-text h1{
-        transform: rotate(0deg) translate(0px);
-    }
-    .home-banner .banner-text p{
-        margin-left: 0px;
-    }
-    .whatsapp img{
-        width: 52px;
-    }
-    .what-we-do .sec{
-        min-height: 556px;
-    }
-    .lets-talk h2{
-        font-size: 4rem;
-    }
-    footer .contact li a{
+   
+    footer .contact li a {
         font-size: 1.3rem;
     }
-    footer ul li a{
-        font-size:1.4rem;
+
+    footer ul li a {
+        font-size: 1.4rem;
     }
 }
 
 /* tab view */
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
 
     /* navbar  */
-    .navbar{
+    .navbar {
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(232, 232, 232, 0.48) 100%);
     }
- 
-    .navbar-nav{
+
+    .navbar-nav {
         background-color: rgba(255, 255, 255, 0.9);
-        flex-direction: row;
+        /* flex-direction: row; */
         border-radius: 5px;
         margin-left: 5px;
+        justify-content: space-around;
     }
-     
-    .navbar-toggler-icon{
+    .header-links{
+        flex-direction: column;
+    }
+
+    .navbar-toggler-icon {
         background: #2168c3;
         height: 2px;
         position: relative;
@@ -87,7 +149,8 @@
         width: 20px;
         float: left;
     }
-    .navbar-light .navbar-toggler::before{
+
+    .navbar-light .navbar-toggler::before {
         content: "";
         position: absolute;
         width: 30px;
@@ -96,7 +159,8 @@
         top: 8px;
         left: 6px;
     }
-    .navbar-light .navbar-toggler:after{
+
+    .navbar-light .navbar-toggler:after {
         content: "";
         position: absolute;
         width: 30px;
@@ -105,7 +169,8 @@
         bottom: 8px;
         left: 6px;
     }
-    .navbar-light .navbar-toggler{
+
+    .navbar-light .navbar-toggler {
         border: 0px;
         box-shadow: 0px 0px 0px;
         padding: 0px;
@@ -116,424 +181,207 @@
         padding: 6px;
     }
 
-    .search-box .search-btns{
-        padding-left: 2rem;
+    .pay-less h2 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 80.09px;
+        margin: 20px 0;
     }
 
-    .home-banner{
-        padding-top: 100px;
-    }
-    .home-banner .banner-text h1 span{
-        font-size: 4rem;
-    }
-    /* .home-banner .banner-text h1{
-        transform: rotate(-90deg) translate(-28px, -165px);
-        line-height: 30px;
-    } */
-    .home-banner .banner-text h1 span{
-        -webkit-text-fill-color: #ffffff;
-    }
-    .home-banner form textarea {
-        height: 75px;
-    }
-    .home-banner form input[type="submit"]{
-        margin-top: 0px;
-    }
-    .services{
-        padding-bottom: 0px;
-    }
-    .services ul{
+
+    .prod-container{
         flex-wrap: wrap;
     }
-    .services ul li{
-        width: calc(100%/3 - 10px);
-        margin-bottom: 15px;
-        min-height: 240px;
+
+    .prod-container .prod-strip:nth-child(-n+3) {
+        order: 1; /* First three divs */
     }
-    .services ul li h3{
-        font-size: 2rem;
+
+    .prod-container .prod-strip:nth-child(n+4) {
+        order: 2; /* Last three divs */
     }
-    .services ul li:nth-child(3n){
-        margin-right: 0px;
-    }
-    .heading p{
-        font-size: 1.3rem;
-    }
-    .how-it-work p, .what-we-do .sec p{
-        font-size: 1.4rem;
-        margin-bottom: 0px;
-    }
-    .how-it-work h4{
-        font-size: 1.3rem;
-    }
-    .what-we-do .sec{
-        padding: 30px 15px;
-        min-height: 460px;
-    }
-    .what-we-do h3, .app-development .heading p, .list li h5{
-        font-size: 2rem;
-    }
-    .what-we-do span{
-        min-height: 60px;
-    }
-    .adventage p{
-        font-size: 1.4rem;
-    }
-    .list{
-        margin-top: 0px;
-    }
-    .lets-talk h2{
-        font-size: 3rem;
-    }
-    .lets-talk::after{
-        background-size: contain;
-    }
-    footer{
+
+  
+    footer {
         padding-top: 30px;
     }
-    footer .contact li{
+
+    footer .contact li {
         padding: 15px 15px;
     }
-    footer .contact li a{
+
+    footer .contact li a {
         font-size: 1.5rem;
     }
-    header{
-        background: none;
+
+     /* contact page  */
+
+    .contact-box{
+        margin-top: 0;
     }
-  
-    /* about us */
-    .about-banner .banner-text .about-img{
-        max-width: 50%;
-        width: 100%;
-    }
-    .about-banner .banner-text h1{
-        font-size: 4rem;
-    }
-    .about-banner .banner-text h2{
-        font-size: 3rem;
-    }
-    .about-banner{
-        min-height: 670px;
-    }
-    /* it solution */
-    .it-solution-banner{
-        min-height: 510px;
-    }
-    .pricing .sec{
-        margin-bottom: 10px;
-    }
-    .inner-banner .banner-text h1{
-        font-size: 4rem;
-    }
-    .inner-banner .banner-text p{
-        font-size: 1.2rem;
-        transform: translate(0px, 0px);
-        width: 100%;
-    }
-    .it-solution-banner {
-        min-height: 410px;
-    }
-    .home-banner form{
-        width: 100%;
-    }
-   
+    
 }
 
 /* mobile view */
 
-@media (max-width: 767px){
-    .home-banner .banner-text h1{
-        transform: rotate(0deg) translate(0px, 0px);
+@media (max-width: 767px) {
+    .home-banner h1 {
+        font-size: 30px;
     }
-    .home-banner .banner-text p{
-        margin-left: 0px;
-        box-decoration-break: clone;
-        background-color: #1f69c8;
-        line-height: 1.8;
-        display: inline;
+
+    .home-banner h2 {
+        font-size: 27px;
     }
-    .home-banner .banner-text h1 span{
+
+    .bnr-btn {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25.56px;
+    }
+    .testi-left{
+        margin-bottom: 20px;
+    }
+    .pay-less{
+        background-size: cover;
+    }
+    .pay-less p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30.77px;
+        margin-bottom: 30px;
+    }
+    .pay-less-btn {
+        font-size: 36px;
+        top: 0;
+        padding: 6px 50px;
+    }
+    .contact-div, .contact-box{
+        background-position: -15% 0%;
+    }
+    .contact-div h2{
+        font-size: 60px;
+    }
+    .contact-form .form-group label{
+        background: #fff;
+    }
+    .contact-left ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    .contact-box::after, .contact-div::after{
+        display: none;
+    }
+    .contact-div{
+        padding-top: 204px;
+    }
+    .prod-strip h3 {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 70.89px;
+    }
+    .prod-strip {
+        flex: 0 0 10%;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .colateral p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28.77px;
+    }
+    .testimonial, .pay-less{
+        padding: 40px 0;
+    }
+    .testimonial h2{
+        margin-bottom: 1rem;
+    }
+    .testimonial h2, .pay-less h2{
+        font-size: 45px;
+        line-height: 60.93px;
+    }
+}
+
+@media (max-width: 575px) {
+    .search-box input.nav-search {
         width: auto;
-        font-size: inherit;
     }
-    .home-banner .banner-text h1{
-        font-size:3rem;
-        text-transform: uppercase;
-        font-weight: 800;
-        background-color: #1f69c8;
-        display: inline-block;
-        padding: 0px 5px;
-        border-radius: 5px;
+
+    .search-box .search-btns {
+        padding-left: 2rem;
     }
-    .home-banner{
-        padding-top: 120px;
-    }
-    .heading h2{
-        font-size: 2rem;
-    }
-    .col-heading{
-        font-size: 1.5rem;
-    }
-    .services ul li{
-        width: calc(100%/3 - 10px);
-    }
-    .how-it-work .col-lg-3 > div{
-        margin-bottom: 15px;
-    }
-    .what-we-do .sec{
-        min-height: 393px;
-    }
-    .adventage ul{
-        flex-wrap: wrap;
-    }
-    .adventage ul li{
-        flex: 0 0 50%;
-    }
-    .list{
-        width: 100%;
-    }
-    .about-banner .banner-text h1{
-        font-size: 3rem;
-    }
-    .about-banner .banner-text .about-img{
-        position: relative;
-        transform: translate(0px);
-    }
-    .about-banner .banner-text h2 br{
-        display: none;
-    }
-    .about-banner .banner-text h2{
-        font-size: 2.5rem;
-        padding-bottom: 5px;
-    }
-    .about-banner .banner-text p{
-        width: 100%;
-        text-align: left;
-    }
-    .about-banner .banner-text h2::after{
-        left: 0px;
-    }
-    .about-banner .banner-text{
-        padding-top: 26%;
-    }
-    .revenew .text-outline{
-        font-size: 5rem;
-    }
-    .what-we-do .heading h2 span{
-        min-height: inherit;
-    }
-    .how-it-work{
-        padding-bottom: 0px;
-    }
-    .inner-banner .banner-text h1{
-        font-size: 3rem;
-    }
-    .inner-banner .banner-text{
-        top: 36%;
-    }
-    .inner-banner.contact-banner::after{
-        display: none;
-    }
-    .inner-banner.contact-banner .info ul{
-        width: 100%;
-    }
-    .inner-banner.contact-banner .info h3{
-        position: relative;
-        right: inherit;
-        left: 0px;
-        top: 0px;
-        text-align: left;
-    }
-    .inner-banner.contact-banner .whatsapp{
-        right: 36px;
-        bottom: 20px;
-    }
-    .contact-banner h1{
-        margin-bottom: 20px;
-    }
-    .contact-banner{
-        padding-top: 17%;
-    }
-    .home-banner form{
-        background-color: rgba(255, 255, 255, 0.8);
-    }
+
 }
 
-@media (max-width: 575px){
-    .heading{
+@media (max-width: 414px) {
+    .prod-strip {
+        flex: 1;
+        width: 100%;
         margin-bottom: 20px;
+        min-height: 495px;
     }
-    .services ul li{
-        width: calc(100%/2 - 10px);
-        padding: 15px;
-        margin-right: 10px;
-    }
-    .services ul li:nth-child(2n){
-        margin-right: 0px;
-    }
-    .services ul li:nth-child(3n){
-        margin-right: 10px;
-    }
-    footer .contact li a {
-        font-size: 1.2rem;
-    }
-    .app-development{
-        padding-bottom: 0px;
-    }
-    .lets-talk h2{
-        font-size: 2rem;
-    }
-    .what-we-do .sec {
-        min-height: 300px;
-    }
-    .whatsapp img{
-        width: 50px;
-    }
-    .whatsapp{
-        bottom: -30px;
-    }
-    .home-banner .banner-text h1{
-        line-height: 40px;
-        font-size: 2.3rem;
-    }
-    .home-banner .banner-text h1 span{
-        font-weight: inherit;
-    }
-    .home-banner .banner-text p{
-        font-size: 1.1rem;
-        line-height: 1;
-    }
-    .inner-banner .banner-text h1{
-        font-size: 2.5rem;
-    }
-    .inner-banner.it-solution-banner.digital-marketing{
-        background-position: center center;
-    }
-    .inner-banner .banner-text{
-        top: 30%;
-    }
-    .contact-banner{
-        padding-top: 30%;
-    }
-    .inner-banner.contact-banner .info ul li a, .inner-banner.contact-banner .info ul li p{
-        font-size: 1.2rem;
-    }
-    .home-banner{
-        padding-bottom: 55px;
-    }
-    .adventage p{
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 414px){
-    .services ul li{
-        width: calc(100%/1 - 0px);
-        margin-right: 0px;
-    }
-    .services ul li:nth-child(3n){
-        margin-right: 0px;
-    }
-    footer .contact li{
+    footer .contact li {
         width: 100%;
         padding: 15px 5px;
     }
-    footer ul li a{
+
+    footer ul li a {
         margin-bottom: 10px;
     }
-    .home-banner .banner-text h1{
-        font-size: 2rem;
-    }
-    .home-banner .banner-text h1 span{
-        font-weight: inherit;
-    }
-    .home-banner .banner-text p{
-        font-size: 1.1rem;
-        line-height: 1;
-    }
-    .services ul li{
-        min-height: 210px;
-    }
-    .inner-banner .banner-text h1 {
-        font-size: 2rem;
-    }
-    .lets-talk-btn{
-        font-size: 1.2rem;
-        padding: 10px 30px;
-        bottom: -24px
-    }
-    .big-text{
-        font-size: 1.5rem;
-    }
-    .inner-banner .banner-text p {
-        font-size: 1rem;
-    }
-    .it-solution-banner{
-        min-height: 320px;
-    }
-    .inner-banner .banner-text{
-        top: 40%;
-    }
-    .inner-banner.contact-banner .info ul{
-        padding: 10px;
-    }
-    .inner-banner.contact-banner .info h3{
-        font-size: 2rem;
-    }
-    .inner-banner.contact-banner .info ul li a{
-        word-break: break-all;
-    }
-    .adventage ul{
-        padding-left: 10px;
-    }
-    .home-banner form{
-        width: 100%;
-    }
+
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
+    .navbar-brand img {
+        max-width: 130px;
+    }
+    .colateral h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.96px;
+    }
+    .bnr-btn {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.56px;
+        padding: 10px;
+    }
+    .testi-left-btn{
+        height: 55px;
+    }
+    .pay-less-btn {
+        font-size: 25px;
+        padding: 6px 50px;
+    }
+    .home-banner{
+        padding-top: 100px;
+    }
+    .testimonial h2, .pay-less h2 {
+        font-size: 30px;
+        line-height: 30.93px;
+    }
     footer .contact li a {
         font-size: 0.9rem;
     }
-    footer .contact li img{
+
+    footer .contact li img {
         width: 18px;
     }
-    .adventage ul li{
+
+    .adventage ul li {
         padding: 0px;
         flex: 0 0 60%;
     }
-    .adventage p{
-        font-size: 1rem;
+    .prod-strip {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-bottom: 20px;
     }
-    .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
-        flex: 0 0 40%;
-    }
-    .home-banner .banner-text h1{
-        font-size: 1.8rem;
-    }
-    .home-banner .banner-text p{
-        font-size: 1rem;
-        line-height: 1;
-    }
-    .inner-banner .banner-text h1{
-        font-size: 1.8rem;
-    }
-    .inner-banner .banner-text{
-        top: 38%;
-    }
-    .col-heading{
-        font-size: 1.2rem;
-    }
+
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
     footer .contact li a {
         font-size: 0.8rem;
     }
-    .adventage ul li{
-        flex: 0 0 100%;
-    }
-    .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
-        flex: 0 0 100%;
-    }
+
 }
