@@ -244,7 +244,7 @@
     .pay-less{
         background-size: cover;
     }
-    .pay-less p {
+    .pay-less p, .abt-desc-inner p {
         font-size: 20px;
         font-weight: 400;
         line-height: 30.77px;
@@ -295,10 +295,11 @@
     .testimonial h2{
         margin-bottom: 1rem;
     }
-    .testimonial h2, .pay-less h2{
+    .testimonial h2, .pay-less h2, .abt-desc-inner h2{
         font-size: 45px;
         line-height: 60.93px;
     }
+   
 }
 
 @media (max-width: 575px) {
@@ -308,6 +309,10 @@
 
     .search-box .search-btns {
         padding-left: 2rem;
+    }
+    .pawn-items{
+        padding-top: 0;
+        padding-bottom: 50px;
     }
 
 }
@@ -352,10 +357,10 @@
         font-size: 25px;
         padding: 6px 50px;
     }
-    .home-banner{
+    .home-banner, .blog-banner, .blog-banner, .contact-div{
         padding-top: 100px;
     }
-    .testimonial h2, .pay-less h2 {
+    .testimonial h2, .pay-less h2, .abt-desc-inner h2 {
         font-size: 30px;
         line-height: 30.93px;
     }
@@ -376,7 +381,11 @@
         width: 100%;
         margin-bottom: 20px;
     }
-
+    .blog-list li {      
+        font-size: 22px;
+        line-height: 27.37px;
+    }
+    
 }
 
 @media (max-width: 320px) {
